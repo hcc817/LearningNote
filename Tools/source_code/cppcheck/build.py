@@ -1,5 +1,5 @@
 import os 
-
+import sys
 if not os.path.exists('./checkInfo'):
     os.mkdir('checkInfo')
     os.chdir('./checkInfo')
